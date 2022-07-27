@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+
+/* =================================
+*   메인(Home) css
+*   2022-06-23 작성
+*   375px 기준
+================================== */
+.main {}
+
+
+
+/* =================================
+*
+*   main-slider
+*
+================================== */
+.main-slider {width: 100%; }
+.main-slider .slick-slider {margin-bottom: 0; }
+
+.main-slider .slick-slide li {position: relative; height: 0; padding-top: 75%; overflow: hidden; background-color: #eee; }
+.main-slider .slick-slide img {position: absolute; top: 50%; left: 50%; width: 100%; height: auto; transform: translate(-50%, -50%); }
+
+.main-slider .slick-dots {display: inline-block; position: absolute; right: 15px; bottom: 15px; width: auto; padding: 4px 8px; border-radius: 999px; box-sizing: border-box; background-color: rgba(0, 0, 0, 0.4); }
+.main-slider .slick-dots li {display: none; width: auto; text-align: center; font-size: 12px; font-weight: 200; color: #fff; line-height: 20px; }
+.main-slider .slick-dots li span {font-weight: 400; }
+.main-slider .slick-dots li.slick-active {display: block; }
+
+
+
+
+
+/* =================================
+*
+*   main-ranking
+*
+================================== */
+.main-ranking {position: relative; width: 100%; padding: 30px 15px; box-sizing: border-box; background-color: #fff; }
+
+.main-ranking .title-area {margin-bottom: 20px; }
+.main-ranking .title-area .title {float: left; }
+.main-ranking .title-area .btn-more {float: right; }
+
+.ranking-list {}
+.ranking-list > li + li {margin-top: 20px; padding-top: 15px; border-top: 1px solid #f7f8f9; }
+
+.ranking-store {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.rank-number {width: 30px; font-size: 15px; font-weight: 500; color: #888; }
+
+.rank-link {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: calc(100% - 80px); }
+
+.rank-thumb {width: 45px; height: 45px; margin-right: 10px; border-radius: 999px; overflow: hidden; }
+.rank-thumb img {width: 100%; }
+
+.rank-info {width: calc(100% - 70px); }
+.rank-info .title {display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 15px; font-weight: 400; color: #444; }
+.rank-info .info {display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-top: 5px; font-size: 13px; color: #888; letter-spacing: -1px; }
+
+
+.rank-myshop {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 40px; margin-left: 10px; }
+.rank-myshop .icon-star {display: block; width: 18px; height: 18px; background-image: url("../images/common/icon_star.svg"); background-repeat: no-repeat; background-position: center center; background-size: 16px 16px; }
+.rank-myshop.active .icon-star {background-image: url("../images/common/icon_star_on.svg"); }
+.rank-myshop span {font-size: 12px; color: #888; }
+
+
+.ranking-goods {margin-top: 10px; }
+.ranking-goods ul {display: -webkit-box; display: -ms-flexbox; display: flex; }
+.ranking-goods li {width: calc(33.333% - 10px); }
+.ranking-goods li + li {margin-left: 15px; }
+.ranking-goods li .thumb {display: block; position: relative; width: 100%; height: 0; padding-top: 100%; border-radius: 5px; overflow: hidden; }
+.ranking-goods li .thumb img {position: absolute; top: 50%; left: 50%; width: 100%; transform: translate(-50%, -50%); }

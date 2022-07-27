@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <title>Home</title>
+
+  <!-- 기본 css -->
+  <link rel="stylesheet" type="text/css" href="../../AppData/css/common/normalize.css">
+  <link rel="stylesheet" type="text/css" href="../../AppData/css/common/fonts.css">
+  <link rel="stylesheet" type="text/css" href="../../AppData/css/common/slick.css">
+  <link rel="stylesheet" type="text/css" href="../../AppData/css/common/swiper.css">
+
+  <!-- 디자인 css -->
+  <link rel="stylesheet" type="text/css" href="../../AppData/css/layout.css">
+  <link rel="stylesheet" type="text/css" href="../../AppData/css/common.css">
+  <link rel="stylesheet" type="text/css" href="../../AppData/css/main.css">  
+
+  <!-- 기본 js -->
+  <script type="text/javascript" src="../../AppData/js/common/jquery.js"></script>
+  <script type="text/javascript" src="../../AppData/js/common/slick.js"></script>
+  <script type="text/javascript" src="../../AppData/js/common/swiper.js"></script>
+  <script type="text/javascript" src="../../AppData/js/design.js"></script>
+
+</head>
+<body>
+
+  <link rel="stylesheet" type="text/css" href="../../AppData/css/store.css"> 
+
+  <div id="wrapper">
+
+    <!-- S: header -->
+    <header id="header" class="type02">
+      <div class="inner">
+        <button type="button" class="btn-back" onclick="javascript:history.back();"><span class="visuallyhidden">Back</span></button>
+
+        <div class="header-right">
+          <button type="button" class="btn-tag"><span class="visuallyhidden">Tag</span></button>
+          <a href="#" class="btn-cart"><span class="visuallyhidden">Cart</span></a>
+        </div>
+
+      </div>
+    </header>
+    <!-- E: header -->
+
+
+    <!-- S: fnb -->
+    <div id="fnb">
+      <ul>
+        <li>
+          <a href="../index.html">
+            <i class="fnb-icon fnb-home"></i>
+            <span class="fnb-name">HOME</span>
+          </a>
+        </li>
+        <li class="active">
+          <a href="index.html">
+            <i class="fnb-icon fnb-store"></i>
+            <span class="fnb-name">STORE</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fnb-icon fnb-all"></i>
+            <span class="fnb-name">ALL</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fnb-icon fnb-like"></i>
+            <span class="fnb-name">LIKE</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fnb-icon fnb-mypage"></i>
+            <span class="fnb-name">MYPAGE</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- E: fnb -->
+
+
+    <!-- S: container -->
+    <div id="container" class="store-detail">
+      <section class="thumb-slider">
+        <ul>
+          <li>
+            <a href="#">
+              <div class="thumb">
+                <img src="../../AppData/images/sample/goods/goods01.jpg">
+              </div>
+              <div class="info">
+                <strong class="title">싱그러운 여름을<br>함께해요</strong>
+                <span class="btn-more">자세히 보기</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="thumb">
+                <img src="../../AppData/images/sample/goods/goods02.jpg">
+              </div>
+              <div class="info">
+                <strong class="title">싱그러운 봄을<br>함께해요</strong>
+                <span class="btn-more">자세히 보기</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="thumb">
+                <img src="../../AppData/images/sample/goods/goods03.jpg">
+              </div>
+              <div class="info">
+                <strong class="title">싱그러운 가을을<br>함께해요</strong>
+                <span class="btn-more">자세히 보기</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="thumb">
+                <img src="../../AppData/images/sample/goods/goods04.jpg">
+              </div>
+              <div class="info">
+                <strong class="title">싱그러운 겨울을<br>함께해요</strong>
+                <span class="btn-more">자세히 보기</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="store-info">
+        <ul class="ranking-list">
+          <li>
+            <div class="ranking-store">
+              <div class="rank-link">
+                <div class="rank-thumb">
+                  <img src="../../AppData/images/sample/rank/rank01.jpg">
+                </div>
+                <div class="rank-info">
+                  <strong class="title">아뜨랑스</strong>
+                  <p class="info">20대 · 30대 · 러블리 · 럭셔리 · 명품</p>
+                </div>
+              </div>
+              <button type="button" class="rank-myshop">
+                <i class="icon-star"></i>
+                <span>94.9K</span>
+              </button>
+            </div>
+          </li>
+        </ul>
+        <button type="button" class="btn-coupon">최대 <span>2,000</span>원 할인 쿠폰</button>
+      </section>
+
+      <section class="store-menu swiper-container">
+        <ul class="swiper-wrapper">
+          <li class="active swiper-slider">
+            <button type="button">전체</button>
+          </li>
+          <li class="swiper-slide">
+            <button type="button">상의</button>
+          </li>
+          <li class="swiper-slide">
+            <button type="button">원피스</button>
+          </li>
+          <li class="swiper-slide">
+            <button type="button">바지</button>
+          </li>
+          <li class="swiper-slide">
+            <button type="button">스커트</button>
+          </li>
+          <li class="swiper-slide">
+            <button type="button">비치웨어</button>
+          </li>
+          <li class="swiper-slide">
+            <button type="button">아우터</button>
+          </li>
+          <li class="swiper-slide">
+            <button type="button">란제리/파자마</button>
+          </li>
+          <li class="swiper-slide">
+            <button type="button">슈즈</button>
+          </li>
+          <li class="swiper-slide">
+            <button type="button">가방</button>
+          </li>
+          <li class="swiper-slide">
+            <button type="button">투피스/세트</button>
+          </li>
+          <li class="swiper-slide">
+            <button type="button">트레이닝</button>
+          </li>
+          <li class="swiper-slide">
+            <button type="button">주얼리</button>
+          </li>
+        </ul>
+      </section>
+
+      <section class="store-goodslist">
+        <div class="list-header">
+          <p class="count">전체 <span>1,027</span></p>
+          <button type="button" class="open-sort">신상품순</button>
+        </div>
+
+        <div class="goods-list">
+          <ul>
+            <li>
+              <a href="#">
+                <div class="thumb">
+                  <img src="../../AppData/images/sample/goods/goods01.jpg">
+                  <button type="button" class="btn-like"><span class="visuallyhidden">상품 좋아요</span></button>
+                </div>
+                <div class="info">
+                  <p class="title">[MADE] 모히츠 코튼퍼프 랩롱원피스</p>
+                  <div class="price-wrap">
+                    <strong class="price">34,220</strong>
+                  </div>
+                </div>
+              </a>
+            </li>
+            
+            <li>
+              <a href="#">
+                <div class="thumb">
+                  <img src="../../AppData/images/sample/goods/goods01.jpg">
+                  <button type="button" class="btn-like"><span class="visuallyhidden">상품 좋아요</span></button>
+                </div>
+                <div class="info">
+                  <p class="title">[MADE] 모히츠 코튼퍼프 랩롱원피스</p>
+                  <div class="price-wrap">
+                    <span class="sale"><span>7</span>%</span>
+                    <strong class="price">34,220</strong>
+                  </div>
+                  <div class="tag-wrap">
+                    <span>무료배송</span>
+                  </div>
+                  <div class="review-wrap">
+                    <span class="score">4.6</span>
+                    <span class="count">(<b>90</b>)</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <div class="thumb">
+                  <img src="../../AppData/images/sample/goods/goods01.jpg">
+                  <button type="button" class="btn-like active"><span class="visuallyhidden">상품 좋아요</span></button>
+                </div>
+                <div class="info">
+                  <p class="title">[MADE] 모히츠 코튼퍼프 랩롱원피스</p>
+                  <div class="price-wrap">
+                    <span class="sale"><span>7</span>%</span>
+                    <strong class="price">34,220</strong>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <div class="thumb">
+                  <img src="../../AppData/images/sample/goods/goods01.jpg">
+                  <button type="button" class="btn-like active"><span class="visuallyhidden">상품 좋아요</span></button>
+                </div>
+                <div class="info">
+                  <p class="title">[MADE] 모히츠 코튼퍼프 랩롱원피스</p>
+                  <div class="price-wrap">
+                    <span class="sale"><span>7</span>%</span>
+                    <strong class="price">34,220</strong>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <div class="thumb">
+                  <img src="../../AppData/images/sample/goods/goods01.jpg">
+                  <button type="button" class="btn-like"><span class="visuallyhidden">상품 좋아요</span></button>
+                </div>
+                <div class="info">
+                  <p class="title">[MADE] 모히츠 코튼퍼프 랩롱원피스</p>
+                  <div class="price-wrap">
+                    <span class="sale"><span>7</span>%</span>
+                    <strong class="price">34,220</strong>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <div class="thumb">
+                  <img src="../../AppData/images/sample/goods/goods01.jpg">
+                  <button type="button" class="btn-like"><span class="visuallyhidden">상품 좋아요</span></button>
+                </div>
+                <div class="info">
+                  <p class="title">[MADE] 모히츠 코튼퍼프 랩롱원피스</p>
+                  <div class="price-wrap">
+                    <span class="sale"><span>7</span>%</span>
+                    <strong class="price">34,220</strong>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <div class="thumb">
+                  <img src="../../AppData/images/sample/goods/goods01.jpg">
+                  <button type="button" class="btn-like"><span class="visuallyhidden">상품 좋아요</span></button>
+                </div>
+                <div class="info">
+                  <p class="title">[MADE] 모히츠 코튼퍼프 랩롱원피스</p>
+                  <div class="price-wrap">
+                    <span class="sale"><span>7</span>%</span>
+                    <strong class="price">34,220</strong>
+                  </div>
+                  <div class="review-wrap">
+                    <span class="score">4.6</span>
+                    <span class="count">(<b>90</b>)</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <div class="thumb">
+                  <img src="../../AppData/images/sample/goods/goods01.jpg">
+                  <button type="button" class="btn-like"><span class="visuallyhidden">상품 좋아요</span></button>
+                </div>
+                <div class="info">
+                  <p class="title">[MADE] 모히츠 코튼퍼프 랩롱원피스</p>
+                  <div class="price-wrap">
+                    <span class="sale"><span>7</span>%</span>
+                    <strong class="price">34,220</strong>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <div class="thumb">
+                  <img src="../../AppData/images/sample/goods/goods01.jpg">
+                  <button type="button" class="btn-like active"><span class="visuallyhidden">상품 좋아요</span></button>
+                </div>
+                <div class="info">
+                  <p class="title">[MADE] 모히츠 코튼퍼프 랩롱원피스</p>
+                  <div class="price-wrap">
+                    <span class="sale"><span>7</span>%</span>
+                    <strong class="price">34,220</strong>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+    </div>
+    <!-- E: container -->
+
+  </div>
+    
+<script>
+  $(document).ready(function(){
+
+    $('.thumb-slider ul').slick({
+      infinite: true,
+      autoplay: true,
+      slideToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      dots: true,
+    });
+
+
+    detailMenu();
+    
+
+  });
+
+
+
+function detailMenu() {
+
+  // var menuLength = $('.store-menu > ul > li').length;
+  var mySwiper = new Swiper('.store-menu.swiper-container', {
+    slidesPerView: 'auto',
+    direction: 'horizontal',
+    freeMode: true,
+    // loop: true,
+    // loopedSlides: menuLength,
+    roundLengths: true,
+  });
+
+  mySwiper.update();
+
+  //클릭 시 active, 해당 영역으로 이동
+  $(document).on('click', '.store-menu button', function(){
+    $(this).parent().addClass('active');
+    $(this).parent().siblings().removeClass('active');
+
+    var idx = $('.store-menu').find('li.active').index();
+    mySwiper.slideTo(idx-1, 0, false);
+  });
+
+
+}
+
+
+</script>
+
+
+</body>
+</html>
